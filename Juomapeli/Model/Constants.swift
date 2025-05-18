@@ -22,27 +22,30 @@ struct C {
     static let wordGameFont = "EricaOne-Regular"
 }
 
-//Data for tableView cells in Finnish language
+//Data for tableView cells in GameSelect VC. Just copy & paste strings and leave the tableView cell size the same
 struct Cells {
+    //Image names
     static let images: [UIImage] = [UIImage(named: "basic")!,UIImage(named: "treffit")!,UIImage(named: "extreme")!, UIImage(named: "selita")!]
-    static let headers: [String] = ["Peruspeli", "Treffit", "Extreme", "Selitä!"]
+    //headers
+    static let headers: [String] = ["Basic game", "Date", "Extreme", "Explain!"]
+    //Paragraphs
     static let paragraphs: [String] = [
-        "Monipuolisia tehtäviä ja haasteita, jotka takaavat räväkän meiningin pysyen kuitenkin hyvän maun rajoissa... juuri ja juuri.",
-        "Syvällisiä, hauskoja ja mielenkiintoisia kysymyksiä ja tehtäviä, joiden avulla varmasti tutustut seuralaiseesi - myös pintaa syvemmältä.",
-        "VAROITUS: Ei nynnyille! Alla olevista mittareista voit itse valita pelin intensiteetin ja rangaistushuikkien määrän.                                           HUOM: Tehtävät vaativat pahimmillaan äärimmäistä heittäytymistä, joten peli sopii ainoastaan kovimmille bilehileille!",
-        "Sanaselitys! Sinulla on minuutti aikaa selittää pelikaverillesi niin monta sanaa, kuin kerkeät. Jokaisesta oikeasta vastauksesta saatte pisteen."
+        "Basic game description: I can write this in Android studio in Finnish.",
+        "Date mode description: I can write this in Android studio in Finnish",
+        "Extreme mode description: I can write this in Android studio in Finnish.",
+        "Explain mode description: I can write this in Android studio in Finnish"
     ]
 }
 
-//Data for settings in Finnish language
+//Data for settings in Finnish language. You can copy & paste strings
 struct Settings {
     
-    static let headers: [String] = ["Tietoa", "Vastuullisuus", "Plus-tilaus"]
+    static let headers: [String] = ["General", "Responsive playing", "Plus-version"]
     
     static let sections: [[String]] = [
-        ["Juhlapeli Cup kotisivut", "Tietosuojakäytäntö", "Käyttöehdot"],
-        ["Muista pitää itsestäsi ja pelitovereistasi huolta. Kyseinen peli on tarkoitettu ainoastaan viihteelliseen käyttöön, eikä ketään tule pakottaa jatkamaan peliä, ellei halua. Emme vastaa mistään vahingoista tai seuraamuksista, jotka voivat aiheutua vastuuttomasta pelaamisesta.","Lue lisää vastuullisuudesta"],
-        ["Palauta ostot"]
+        ["Juhlapeli Cup homepage", "Privacy policy", "Terms of use"],
+        ["Disclaimer: I can write this in Android studio in Finnish"],
+        ["Restore purchases"]
     ]
 }
 
@@ -79,7 +82,10 @@ struct UD {
 }
 
 struct WordGame {
-    static let startMessage = "Sanaselityspeli!     Selitä pelaajatoverillesi minuutissa niin monta sanaa kuin kerkeät. Oikeasta vastauksesta saatte pisteen. Kosketa aloittaaksesi"
+    static let startMessage = "Explain!    Explain mode instructions: I can write this in Android studio in Finnish"
+    
+    //List of Finnish words to explain is here. You can copy & paste the array and leave content as it is
+    
     static let words: [String] = ["Paavo Pesusieni", "Ikkuna", "Mike Tyson", "Petteri Orpo", "Riikka Purra", "Sanna Marin", "Kynttilä", "Yhdyntä", "Varvas", "Kynsilakka", "Huulet",
                                   "Pakara", "G-piste", "Etanoli", "Avatar", "Michael Jakcson", "Kondomi",
                                   "Soihtu", "Nuotti", "Kurkku", "Audi", "Oksennus", "Aakkoset", "Verhot",

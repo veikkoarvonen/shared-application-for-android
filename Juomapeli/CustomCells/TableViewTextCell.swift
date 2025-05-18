@@ -26,7 +26,7 @@ class TableViewTextCell: UITableViewCell {
         textField.delegate = self
         
         //"Lisää pelaaja" = "Add player" in Finnish
-        setPlaceholder(text: " + Lisää pelaaja")
+        setPlaceholder(text: " + Add player")
         
         backView.layer.masksToBounds = false
         backView.layer.shadowColor = UIColor.black.cgColor
@@ -70,7 +70,7 @@ extension TableViewTextCell: UITextFieldDelegate {
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
-        setPlaceholder(text: " + Lisää pelaaja")
+        setPlaceholder(text: " + Add player")
         if let text = textField.text {
             if text != "" {
                 delegate?.addPlayer(name: text, row: row!)

@@ -9,19 +9,21 @@ import UIKit
 
 struct SingleTask {
     
-    //pelaajat
+/*MARK: game parameters determined by user*/
+    
+    //players
     var player1: String
     var player2: String
     var color1: UIColor
     var color2: UIColor
     
-    //Peliparametrit
+    //game parameters
     var category: Int
     var tier: Int
     var drinkValue: Float
     var taskIndex: Int
     
-    //Kysymykset
+    //tasks
     var normals: [String] = []
     var dates: [String] = []
     var tier1: [String] = []
@@ -30,10 +32,10 @@ struct SingleTask {
     var tier4: [String] = []
     var tier5: [String] = []
     
-    //Huikkamäärä
+    //amount of punishments
     func getNumber(input: Int) -> Int {
-        let kerroin = (0.09735) * (drinkValue * drinkValue) + (0.15625)
-        let amount = kerroin * Float(input)
+        let multiplier = (0.09735) * (drinkValue * drinkValue) + (0.15625)
+        let amount = multiplier * Float(input)
         let finalNumber = amount.rounded()
         return Int(finalNumber)
         
@@ -107,6 +109,8 @@ struct SingleTask {
         self.taskIndex = taskIndex
    
 //MARK: - Tasks for the games in Finnish language. Just copy paste strings
+        
+//The getNumber function inserts a number in the string calculated by game parameters
         
         self.normals = [
             

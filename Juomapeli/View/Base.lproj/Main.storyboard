@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Tuo-8f-WSm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Tuo-8f-WSm">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -19,10 +19,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iq8-mH-1J3">
-                                <rect key="frame" x="119.00000000000001" y="382.66666666666669" width="137.33333333333337" height="46.666666666666686"/>
+                                <rect key="frame" x="113.33333333333333" y="382.66666666666669" width="148.66666666666669" height="46.666666666666686"/>
                                 <color key="tintColor" name="brandPurple"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Aloita peli">
+                                <buttonConfiguration key="configuration" style="filled" title="Start Game">
                                     <fontDescription key="titleFontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="25"/>
                                     <color key="baseForegroundColor" name="brandPurple"/>
                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -40,7 +40,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="mus-MB-wfK">
-                        <barButtonItem key="backBarButtonItem" title="takaisin" id="Lmf-OU-2kj"/>
+                        <barButtonItem key="backBarButtonItem" title="back" id="Lmf-OU-2kj"/>
                     </navigationItem>
                     <connections>
                         <segue destination="sGy-dV-Pdx" kind="show" identifier="12" id="j02-aQ-fNg"/>
@@ -67,9 +67,9 @@
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovU-gQ-aAG">
-                                <rect key="frame" x="126.66666666666669" y="696.66666666666663" width="122" height="41.333333333333371"/>
+                                <rect key="frame" x="151.33333333333334" y="696.66666666666663" width="72.666666666666657" height="41.333333333333371"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Seuraava">
+                                <buttonConfiguration key="configuration" style="filled" title="Next">
                                     <fontDescription key="titleFontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="25"/>
                                     <color key="baseBackgroundColor" name="brandPurple"/>
                                 </buttonConfiguration>
@@ -141,7 +141,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="m8p-uL-zFY">
-                        <barButtonItem key="backBarButtonItem" title="takaisin" id="LVh-QA-30z"/>
+                        <barButtonItem key="backBarButtonItem" title="back" id="LVh-QA-30z"/>
                         <barButtonItem key="rightBarButtonItem" image="info.circle" catalog="system" id="3Au-US-x9o">
                             <connections>
                                 <segue destination="m4N-fd-aRD" kind="show" identifier="gameSelectToSettings" id="AY0-WQ-bpb"/>
@@ -375,7 +375,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="FVt-sc-X64"/>
+        <segue reference="AY0-WQ-bpb"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="28" width="3375" height="6000"/>

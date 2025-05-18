@@ -31,7 +31,7 @@ class AddPlayers: UIViewController, CellDelegate {
         view.endEditing(true)
         if players.count < 2 {
             //"Lisää vähintään kaksi pelaajaa" = "Add at least two players" in Finnish
-            showErrorAlert(text: "Lisää vähintään kaksi pelaajaa")
+            showErrorAlert(text: "Add at least two players")
         } else {
             performSegue(withIdentifier: "23", sender: self)
         }
@@ -110,7 +110,7 @@ extension AddPlayers {
         let alertController = UIAlertController(title: nil, message: text, preferredStyle: .alert)
         
         // Add the "Selvä" action. "Selvä" = "OK" in Finnish
-        let closeAction = UIAlertAction(title: "Selvä", style: .default, handler: nil)
+        let closeAction = UIAlertAction(title: "OK", style: .default, handler: nil)
         alertController.addAction(closeAction)
         
         // Present the alert controller
