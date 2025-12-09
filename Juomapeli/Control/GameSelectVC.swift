@@ -258,8 +258,7 @@ extension GameSelectView: UITableViewDataSource, UITableViewDelegate {
         
 //MARK: - Override paywall here for colors
         
-        //let hasPlus = IAPManager.shared.isSubscriptionActive()
-        let hasPlus = true
+        let hasPlus = IAPManager.shared.isSubscriptionActive()
         
         if indexPath.row != 0 && !hasPlus {
             cell.header.textColor = .orange //Orange
@@ -286,8 +285,7 @@ extension GameSelectView: UITableViewDataSource, UITableViewDelegate {
         categoryForGame = category
         
         //MARK: - Override paywall here for testing
-        //let hasPlus = IAPManager.shared.isSubscriptionActive()
-        let hasPlus: Bool = true
+        let hasPlus = IAPManager.shared.isSubscriptionActive()
         
         //pro VC - User doesn't have plus sub
         if indexPath.row != 0 && !hasPlus {

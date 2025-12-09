@@ -9,7 +9,7 @@ import UIKit
 
 class AddPlayers: UIViewController, CellDelegate, LanguageReloader {
     
-    var players: [String] = ["Moe Lester", "Isac Cox", "Ray Piste", "Jenny Talia", "Mike Oxsmall"]
+    var players: [String] = []
     var nextButton = UIButton()
     let languageManager = LanguageManager()
     var hasSetButton = false

@@ -107,8 +107,7 @@ class GameView: UIViewController {
         
         let players = gameConfiguration.players
         let language = languageManager.getSelectedLanguage()
-        //let hasPlusSub = IAPManager.shared.isSubscriptionActive()
-        let hasPlusSub: Bool = false
+        let hasPlusSub = IAPManager.shared.isSubscriptionActive()
         let gameCategory = gameConfiguration.gameCategory
         
         //Generate number of tasks based on shorter round status
