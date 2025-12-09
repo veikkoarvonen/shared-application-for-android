@@ -112,7 +112,7 @@ class GameView: UIViewController {
         
         //Generate number of tasks based on shorter round status
         var numberOfTasks: Int {
-            if gameConfiguration.shorterRound { return 10 } else { return 30 }
+            if gameConfiguration.shorterRound { return 15 } else { return 30 }
         }
         
         

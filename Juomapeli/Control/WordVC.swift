@@ -330,7 +330,7 @@ class WordView: UIViewController {
 extension WordView {
     
     private func setGameParameters() {
-        let gameTime = 10
+        let gameTime = 60
         var words: [String] {
             if languageManager.getSelectedLanguage() == "fi" {
                 return WordGame.words

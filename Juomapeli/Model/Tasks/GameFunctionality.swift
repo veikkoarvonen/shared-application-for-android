@@ -61,7 +61,8 @@ struct GameFunctionality {
         
         let multiplier = (0.09735) * (penaltySliderValue * penaltySliderValue) + (0.15625)
         let amount = multiplier * Float(baseline)
-        let finalNumber = amount.rounded()
+        var finalNumber = amount.rounded()
+        if finalNumber < 1 { finalNumber = 1 }
         return Int(finalNumber)
         
     }

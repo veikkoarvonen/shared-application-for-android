@@ -324,7 +324,7 @@ class TeamView: UIViewController {
         let p2 = opponentTeam.players.randomElement()!
         
         let taskTemplate = gameFunctionality.renderTemplate(currentTemplate.template, values: [
-            "team" : currentTeam.name,
+            "team1" : currentTeam.name,
             "player1" : p1,
             "player2" : p2,
             "penalties" : String(currentTemplate.baselinePenalty)
