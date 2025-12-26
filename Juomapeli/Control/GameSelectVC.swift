@@ -63,7 +63,7 @@ class GameSelectView: UIViewController, valueDelegate, LanguageReloader {
         } else if segue.identifier == "team" {
             let destinationVC = segue.destination as! TeamView
             
-            destinationVC.gameConfiguaration = TeamModeConfiguration(players: players, numberOfTasks: 30, countPoints: countPointsInGame, shorterRound: isShorterRound, teamConfigurationIndexes: [])
+            destinationVC.gameConfiguaration = TeamModeConfiguration(players: players, numberOfTasks: 30, countPoints: true, shorterRound: isShorterRound, teamConfigurationIndexes: [])
         }
     }
     
@@ -94,11 +94,21 @@ class GameSelectView: UIViewController, valueDelegate, LanguageReloader {
     }
     
     @objc private func pointSwitchChanged(_ sender: UISwitch) {
+        guard IAPManager.shared.isSubscriptionActive() else {
+            performSegue(withIdentifier: "pro", sender: self)
+            sender.isOn = false
+            return
+        }
         print("Point switch is now: \(sender.isOn)")
         countPointsInGame = sender.isOn
     }
     
     @objc private func lengthSwitchChanged(_ sender: UISwitch) {
+        guard IAPManager.shared.isSubscriptionActive() else {
+            performSegue(withIdentifier: "pro", sender: self)
+            sender.isOn = false
+            return
+        }
         print("Length switch is now: \(sender.isOn)")
         isShorterRound = sender.isOn
     }

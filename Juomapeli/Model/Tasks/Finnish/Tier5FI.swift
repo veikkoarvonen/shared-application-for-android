@@ -211,8 +211,8 @@ struct Tier5FITasks {
                 baselinePenalty: 3
                 ),
                 Task(
-                template:            "{player1}, anna fritsu pelaajalle {player2}. Kieltäytyjä ottaa {penalties} rankaisevaa",
-                pointsToScore: 0,
+                template:            "{player1}, anna pelaajan {player2} tehdä sinulle fritsu. Kieltäytymisestä {penalties} rankaisevaa",
+                pointsToScore: 4,
                 baselinePenalty: 4
                 ),
                 Task(
@@ -274,8 +274,13 @@ struct Tier5FITasks {
                 template:             "Keksikää vuorotellen synonyymi sanalle ”emätin”. Ensimmäinen joka ei keksi uutta, ottaa {penalties} rankaisevaa. {player1} aloittaa",
                 pointsToScore: 0,
                 baselinePenalty: 3
+                ),
+                Task(
+                    template:             "{player1}, ime pelaajan {player2} varpaita tai ota {penalties} rankaisevaa",
+                    pointsToScore: 3,
+                    baselinePenalty: 5
                 )
-
+        
 
 
     ]
