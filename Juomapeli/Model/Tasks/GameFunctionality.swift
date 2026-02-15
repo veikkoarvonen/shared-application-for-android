@@ -137,7 +137,7 @@ struct GameFunctionality {
         var p1indexes: [Int] = []
         var p2indexes: [Int] = []
         
-        for i in 0..<numberOfTasks {
+        for _ in 0..<numberOfTasks {
             if p1index >= players.count {
                 p1index = 0
                 p1indexes.append(p1index)
@@ -353,6 +353,8 @@ struct TeamModeFunctionality {
             .foregroundColor: color3,
             .font: UIFont.boldSystemFont(ofSize: 24)
         ]
+        
+        
         
         // Apply attributes to highlight1
         let highlight1Range = (fullText as NSString).range(of: highlight1)

@@ -134,7 +134,7 @@ struct TeamVCUI {
     }
     
     func generatePointInstructionView(viewFrame: CGRect, safeArea: UIEdgeInsets) -> UIView {
-        let language = LanguageManager().getSelectedLanguage()
+        //let language = LanguageManager().getSelectedLanguage()
         let view = UIView()
         view.backgroundColor = .clear
         view.layer.shadowColor = UIColor.black.cgColor

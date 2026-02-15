@@ -112,7 +112,7 @@ struct TeamsFITasks {
             baselinePenalty: 4
         ),
         Task(
-            template:         "{player1} vs. {player2}! Jatkakaa yhdyssanaa mahdollisimman pitkään vuorotellen (esim. Lumipallo, pallomeri, meritähti). Pelaaja, joka jäätyy ensimmäisenä, häviää. Häviäjän joukkue ottaa {penalties} rankaisevaa. Pelaaja1 aloittaa sanalla ‘lasi’",
+            template:         "{player1} vs. {player2}! Jatkakaa yhdyssanaa mahdollisimman pitkään vuorotellen (esim. Lumipallo, pallomeri, meritähti). Pelaaja, joka jäätyy ensimmäisenä, häviää. Häviäjän joukkue ottaa {penalties} rankaisevaa. {player1} aloittaa sanalla ‘lasi’",
             pointsToScore: 3,
             baselinePenalty: 3
         ),
@@ -162,7 +162,7 @@ struct TeamsFITasks {
             baselinePenalty: 3
         ),
         Task(
-            template:         "{player1} vs {player2}, energiajuomamerkkejä! Se kumpi jäätyy ensimmäisenä, häviää. Häviäjän tiimi ottaa {penalties} rankaisevaa. Pelaaja1 aloittaa",
+            template:         "{player1} vs {player2}, energiajuomamerkkejä! Se kumpi jäätyy ensimmäisenä, häviää. Häviäjän tiimi ottaa {penalties} rankaisevaa. {player1} aloittaa",
             pointsToScore: 3,
             baselinePenalty: 4
         ),
