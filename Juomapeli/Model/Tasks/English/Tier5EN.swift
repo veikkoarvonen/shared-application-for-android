@@ -269,7 +269,22 @@ struct Tier5ENTasks {
                     template: "Take turns inventing a synonym for the word “vagina”. The first person who can’t think of a new one takes {penalties} penalties. {player1} starts",
                     pointsToScore: 1,
                     baselinePenalty: 3
-                )
+                ),
+        Task(
+            template: "{player1}, suck on {player2}'s toes or take {penalties} penalties",
+            pointsToScore: 3,
+            baselinePenalty: 5
+        ),
+        Task(
+            template: "{player1}, kiss {player2}'s buttock or take {penalties} penalties",
+            pointsToScore: 3,
+            baselinePenalty: 5
+        ),
+        Task(
+            template: "{player1}, show the naughtiest photo of yourself or take {penalties} penalties",
+            pointsToScore: 4,
+            baselinePenalty: 6
+        ),
 
 
     ]

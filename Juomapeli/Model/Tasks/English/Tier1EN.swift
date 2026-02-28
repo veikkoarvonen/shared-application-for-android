@@ -259,6 +259,26 @@ struct Tier1ENTasks {
             template: "{player1}, what is {player2}’s birthday and birth year? If you guess correctly, they take {penalties} penalties. If you’re wrong, you take {penalties} penalties",
             pointsToScore: 1,
             baselinePenalty: 2
+        ),
+        Task(
+            template: "The player with the deepest voice takes {penalties} penalties",
+            pointsToScore: 1,
+            baselinePenalty: 2
+        ),
+        Task(
+            template: "{player1}, hum a 90s song of your choice. If the other players don't guess it within 10 seconds, take {penalties} penalties",
+            pointsToScore: 1,
+            baselinePenalty: 3
+        ),
+        Task(
+            template: "{player1}, you have 15 seconds to list the months in reverse order. If you fail, take {penalties} penalties",
+            pointsToScore: 2,
+            baselinePenalty: 2
+        ),
+        Task(
+            template: "{player1} vs {player2}, compliment battle! Take turns complimenting each other. The first one to freeze takes {penalties} penalties. {player1} starts",
+            pointsToScore: 3,
+            baselinePenalty: 4
         )
     ]
     

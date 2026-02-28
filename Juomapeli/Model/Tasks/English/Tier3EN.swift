@@ -379,7 +379,32 @@ struct Tier3ENTasks {
                     template: "The player with the best hairline takes {penalties} penalties",
                     pointsToScore: 0,
                     baselinePenalty: 2
-                )
+                ),
+        Task(
+            template: "{player1}, clap your hands to the rhythm you like to have sex to or drink {penalties} sips",
+            pointsToScore: 2,
+            baselinePenalty: 5
+        ),
+        Task(
+            template: "{player1}, how horny are you right now on a scale of 1-10? Answer or take {penalties} penalties",
+            pointsToScore: 2,
+            baselinePenalty: 4
+        ),
+        Task(
+            template: "Every player who has ever had a one-night stand takes {penalties} penalties",
+            pointsToScore: 0,
+            baselinePenalty: 3
+        ),
+        Task(
+            template: "Every player who is open to an open relationship takes {penalties} penalties",
+            pointsToScore: 0,
+            baselinePenalty: 4
+        ),
+        Task(
+            template: "{player1}, if you could only have sex with one person for the rest of your life, who would it be? Answer or take {penalties} penalties",
+            pointsToScore: 2,
+            baselinePenalty: 3
+        ),
 
 
 

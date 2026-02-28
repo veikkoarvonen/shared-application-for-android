@@ -299,7 +299,62 @@ struct Tier4FITasks {
                 template:            "Keksikää vuorotellen synonyymi sanalle ”siitin”. Ensimmäinen joka ei keksi uutta, ottaa {penalties} rankaisevaa. {player1} aloittaa",
                 pointsToScore: 0,
                 baselinePenalty: 3
-                )
+                ),
+        Task(
+            template: "{player1}, nuolaise pelaajan {player2} torsoa navan alapuolelta kaulaan saakka. Kieltäytyjä ottaa {penalties} rankaisevaa",
+            pointsToScore: 4,
+            baselinePenalty: 4
+        ),
+        Task(
+            template: "{player1}, kerro unohtumattomin seksuaalinen kokemuksesi tai ota {penalties} rankaisevaa",
+            pointsToScore: 3,
+            baselinePenalty: 4
+        ),
+        Task(
+            template: "{player1}, minkä ikäisenä masturboit ensimmäisen kerran? Vastaa tai ota {penalties} rankaisevaa",
+            pointsToScore: 2,
+            baselinePenalty: 3
+        ),
+        Task(
+            template: "{player1}, liikuttele kieltäsi seksikkäästi muille pelaajille tai ota {penalties} rankaisevaa",
+            pointsToScore: 3,
+            baselinePenalty: 5
+        ),
+        Task(
+            template: "Jokainen pelaaja, joka omistaa seksilelun, ottaa {penalties} rankaisevaa",
+            pointsToScore: 0,
+            baselinePenalty: 3
+        ),
+        Task(
+            template: "Jokainen pelaaja, joka on joskus fantasioinut kaveristaan, ottaa {penalties} rankaisevaa",
+            pointsToScore: 0,
+            baselinePenalty: 5
+        ),
+        Task(
+            template: "Jokainen pelaaja, joka on joskus käyttänyt termejä ”mommy” tai ”daddy” petipuuhissa, ottaa {penalties} rankaisevaa",
+            pointsToScore: 0,
+            baselinePenalty: 6
+        ),
+        Task(
+            template: "{player1}, montako orgasmia olet saanut viimeisen kuukauden aikana? Ota sama määrä rankaisevia",
+            pointsToScore: 2,
+            baselinePenalty: 0 // Määräytyy vastauksen mukaan
+        ),
+        Task(
+            template: "Jokainen pelaaja, joka on maannut varatun henkilön kanssa, ottaa {penalties} rankaisevaa",
+            pointsToScore: 0,
+            baselinePenalty: 6
+        ),
+        Task(
+            template: "Jokainen pelaaja, joka on joskus leikkinyt roolileikkejä, ottaa {penalties} rankaisevaa",
+            pointsToScore: 1,
+            baselinePenalty: 4
+        ),
+        Task(
+            template: "Jokainen pelaaja riisuu vuorotellen yhden vaatekappaleen. Pelaaja, joka lopettaa ensimmäisenä ottaa {penalties} huikkaa. {player1} aloittaa",
+            pointsToScore: 0,
+            baselinePenalty: 7
+        ),
 
     ]
     

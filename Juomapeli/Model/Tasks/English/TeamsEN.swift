@@ -9,12 +9,6 @@ import Foundation
 
 struct TeamsENTasks {
     
-    
-    
-    
-    
-    
-    
     static let tasks = [
         Task(
             template: "{player1} vs. {player2} in an arm-wrestling match! The losing team takes {penalties} penalties",

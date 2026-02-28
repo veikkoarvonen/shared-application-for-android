@@ -309,7 +309,29 @@ struct Tier2FITasks {
         template:            "Jokainen pelaaja esittelee itsensä hauskan faktan kera. Tylsimmän esittelyn esittäjä ottaa {penalties} rankaisevaa. {player1} aloittaa",
         pointsToScore: 0,
         baselinePenalty: 3
-        )
+        ),
+        Task(
+        template:            "{player1}, pussaa omaa napaasi. Jos et onnistu, ota {penalties} rankaisevaa",
+        pointsToScore: 3,
+        baselinePenalty: 3
+        ),
+        Task(
+            template: "{player1}, kerro pelaajalle {player2} jotain, mitä haluaisit hänen tietävän tai ota {penalties} rankaisevaa",
+            pointsToScore: 2,
+            baselinePenalty: 3
+        ),
+        Task(
+            template: "Jokainen pelaaja, joka on joskus estänyt exänsä somessa, ottaa {penalties} rankaisevaa",
+            pointsToScore: 0,
+            baselinePenalty: 3
+        ),
+        Task(
+            template: "{player1}, kerro salaisuus, jota yksikään pelaaja ei vielä tiedä sinusta, tai ota {penalties} rankaisevaa",
+            pointsToScore: 2,
+            baselinePenalty: 4
+        ),
+        
+        
 
 
     ]

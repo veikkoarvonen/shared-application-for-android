@@ -299,7 +299,62 @@ struct Tier4ENTasks {
                     template: "Take turns inventing a synonym for the word “penis”. The first person who can’t think of a new one takes {penalties} penalties. {player1} starts",
                     pointsToScore: 1,
                     baselinePenalty: 3
-                )
+                ),
+        Task(
+            template: "{player1}, lick {player2}'s torso from below the navel all the way up to the neck. Anyone who refuses takes {penalties} penalties",
+            pointsToScore: 4,
+            baselinePenalty: 4
+        ),
+        Task(
+            template: "{player1}, tell us about your most unforgettable sexual experience or take {penalties} penalties",
+            pointsToScore: 3,
+            baselinePenalty: 4
+        ),
+        Task(
+            template: "{player1}, at what age did you masturbate for the first time? Answer or take {penalties} penalties",
+            pointsToScore: 2,
+            baselinePenalty: 3
+        ),
+        Task(
+            template: "{player1}, move your tongue sexily for the other players or take {penalties} penalties",
+            pointsToScore: 3,
+            baselinePenalty: 5
+        ),
+        Task(
+            template: "Every player who owns a sex toy takes {penalties} penalties",
+            pointsToScore: 0,
+            baselinePenalty: 3
+        ),
+        Task(
+            template: "Every player who has ever fantasized about a friend takes {penalties} penalties",
+            pointsToScore: 0,
+            baselinePenalty: 5
+        ),
+        Task(
+            template: "Every player who has ever used the terms 'mommy' or 'daddy' in the bedroom takes {penalties} penalties",
+            pointsToScore: 0,
+            baselinePenalty: 6
+        ),
+        Task(
+            template: "{player1}, how many orgasms have you had in the last month? Take the same amount of penalties",
+            pointsToScore: 2,
+            baselinePenalty: 0 // Determined by the answer
+        ),
+        Task(
+            template: "Every player who has slept with someone who was in a relationship takes {penalties} penalties",
+            pointsToScore: 0,
+            baselinePenalty: 6
+        ),
+        Task(
+            template: "Every player who has ever tried roleplaying takes {penalties} penalties",
+            pointsToScore: 1,
+            baselinePenalty: 4
+        ),
+        Task(
+            template: "Every player takes turns removing one piece of clothing. The first one to stop takes {penalties} sips. {player1} starts",
+            pointsToScore: 0,
+            baselinePenalty: 7
+        ),
 
 
     ]

@@ -309,7 +309,27 @@ struct Tier2ENTasks {
             template: "Each player introduces themselves with a funny fact. The player with the dullest introduction takes {penalties} penalties. {player1} starts",
             pointsToScore: 0,
             baselinePenalty: 3
-        )
+        ),
+        Task(
+            template: "{player1}, kiss your own belly button. If you fail, take {penalties} penalties",
+            pointsToScore: 3,
+            baselinePenalty: 3
+        ),
+        Task(
+            template: "{player1}, tell {player2} something you would like them to know or take {penalties} penalties",
+            pointsToScore: 2,
+            baselinePenalty: 3
+        ),
+        Task(
+            template: "Every player who has ever blocked an ex on social media takes {penalties} penalties",
+            pointsToScore: 0,
+            baselinePenalty: 3
+        ),
+        Task(
+            template: "{player1}, tell a secret that no other player knows about you yet, or take {penalties} penalties",
+            pointsToScore: 2,
+            baselinePenalty: 4
+        ),
     ]
     
 }

@@ -279,7 +279,17 @@ struct Tier5FITasks {
                     template:             "{player1}, ime pelaajan {player2} varpaita tai ota {penalties} rankaisevaa",
                     pointsToScore: 3,
                     baselinePenalty: 5
-                )
+                ),
+        Task(
+            template:             "{player1}, suutele pelaajan {player2} pakaraa tai ota {penalties} rankaisevaa",
+            pointsToScore: 3,
+            baselinePenalty: 5
+        ),
+        Task(
+            template: "{player1}, näytä tuhmin kuva itsestäsi tai ota {penalties} rankaisevaa",
+            pointsToScore: 4,
+            baselinePenalty: 6
+        ),
         
 
 

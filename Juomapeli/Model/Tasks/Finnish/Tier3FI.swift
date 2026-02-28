@@ -379,7 +379,31 @@ struct Tier3FITasks {
                 template:            "Parhaimman hiusrajan omaava pelaaja ottaa {penalties} rankaisevaa",
                 pointsToScore: 0,
                 baselinePenalty: 2
-                )
+                ),
+              Task(template: "{player1}, taputa käsiäsi siihen tahtiin, missä tykkäät harrastaa seksiä tai juo {penaslities} huikkaa",
+             pointsToScore: 2,
+             baselinePenalty: 5),
+        Task(
+            template: "{player1}, kuinka kiimainen olet tällä hetkellä 1-10? Vastaa tai ota {penalties} rankaisevaa",
+            pointsToScore: 2,
+            baselinePenalty: 4
+        ),
+        Task(
+            template: "Jokainen pelaaja, joka on joskus kokenut yhden yön jutun, ottaa {penalties} rankaisevaa",
+            pointsToScore: 0,
+            baselinePenalty: 3
+        ),
+        Task(
+            template: "Jokainen pelaaja, joka on avoin avoimelle suhteelle, ottaa {penalties} rankaisevaa",
+            pointsToScore: 0,
+            baselinePenalty: 4
+        ),
+        Task(
+            template: "{player1}, jos saisit harrastaa seksiä vain yhden henkilön kanssa loppuelämäsi ajan, kuka se olisi? Vastaa tai ota {penalties} rankaisevaa",
+            pointsToScore: 2,
+            baselinePenalty: 3
+        ),
+        
 
     ]
     

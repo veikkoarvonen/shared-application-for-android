@@ -268,7 +268,27 @@ struct Tier1FITasks {
         Task(
         template:            "{player1}, mikä on pelaajan {player2} syntymäpäivä ja -vuosi? Jos arvaat oikein, hän ottaa {penalties} rankaisevaa. Jos väärin, otat itse {penalties}",
         pointsToScore: 1,
+        baselinePenalty: 3
+        ),
+        Task(
+        template:            "Pelaaja jolla on matalin ääni ottaa {penalties} rankaisevaa",
+        pointsToScore: 1,
         baselinePenalty: 2
+        ),
+        Task(
+            template:            "{player1}, hyräile valitsemaasi 90-luvun biisiä. Jos muut pelaajat eivät 10 sekunnissa arvaa mitä hyräilet, ota {penalties} rankaisevaa",
+        pointsToScore: 1,
+        baselinePenalty: 3
+        ),
+        Task(
+            template:            "{player1}, sinulla on 15 sekuntia aikaa luetella kuukaudet takaperin. Epäonnistuessasi ota {penalties} rankaisevaa",
+        pointsToScore: 2,
+        baselinePenalty: 2
+        ),
+        Task(
+            template: "{player1} vs {player2}, kehumiskilpailu! Kehukaa toisianne vuorotellen. Ensimmäinen joka jäätyy ottaa {penalties} rankaisevaa. {player1} aloittaa",
+            pointsToScore: 3,
+            baselinePenalty: 4
         )
     ]
     
