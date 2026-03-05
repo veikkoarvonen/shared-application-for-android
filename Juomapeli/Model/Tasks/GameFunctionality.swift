@@ -182,6 +182,30 @@ struct GameFunctionality {
         
     }
     
+    func generateDebugTaskTemplates() -> [Task] {
+        var arrayToReturn: [Task] = []
+        
+        arrayToReturn.append(contentsOf: BasicGameTasksFI.tasks)
+        arrayToReturn.append(contentsOf: BasicGameTasksEN.tasks)
+        arrayToReturn.append(contentsOf: DateTasksFI.tasks)
+        arrayToReturn.append(contentsOf: DateTasksEN.tasks)
+        arrayToReturn.append(contentsOf: TeamsFITasks.tasks)
+        arrayToReturn.append(contentsOf: TeamsENTasks.tasks)
+        arrayToReturn.append(contentsOf: Tier1FITasks.tasks)
+        arrayToReturn.append(contentsOf: Tier1ENTasks.tasks)
+        arrayToReturn.append(contentsOf: Tier2FITasks.tasks)
+        arrayToReturn.append(contentsOf: Tier2ENTasks.tasks)
+        arrayToReturn.append(contentsOf: Tier3FITasks.tasks)
+        arrayToReturn.append(contentsOf: Tier3ENTasks.tasks)
+        arrayToReturn.append(contentsOf: Tier4FITasks.tasks)
+        arrayToReturn.append(contentsOf: Tier5ENTasks.tasks)
+        arrayToReturn.append(contentsOf: Tier5FITasks.tasks)
+        arrayToReturn.append(contentsOf: Tier5ENTasks.tasks)
+        
+        return arrayToReturn
+                             
+    }
+    
     func generateTaskTemplatesForDatemode(numberOfTasks: Int, language: String) -> [Task] {
         
         var targetTaskArray: [Task] = (language == "fi") ? DateTasksFI.tasks : DateTasksEN.tasks

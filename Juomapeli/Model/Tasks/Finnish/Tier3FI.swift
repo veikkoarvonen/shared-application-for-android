@@ -380,7 +380,7 @@ struct Tier3FITasks {
                 pointsToScore: 0,
                 baselinePenalty: 2
                 ),
-              Task(template: "{player1}, taputa käsiäsi siihen tahtiin, missä tykkäät harrastaa seksiä tai juo {penaslities} huikkaa",
+              Task(template: "{player1}, taputa käsiäsi siihen tahtiin, missä tykkäät harrastaa seksiä tai juo {penaslties} huikkaa",
              pointsToScore: 2,
              baselinePenalty: 5),
         Task(

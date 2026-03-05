@@ -170,11 +170,11 @@ extension ProView {
         weeklyButton.layer.cornerRadius = roundness
         
         if languageManager.getSelectedLanguage() == "en" {
-            weeklyButton.text = "   0.99€ / week" //"Viikko" = "week"
+            weeklyButton.text = "   1.99€ / week" //"Viikko" = "week"
             monthlyButton.text = "   3.99€ / month" //"Kuukausi" = "Month"
             yearlyButton.text = "   9.99€ / year" //"Vuosi" = "year"
         } else {
-            weeklyButton.text = "   0.99€ / viikko" //"Viikko" = "week"
+            weeklyButton.text = "   1.99€ / viikko" //"Viikko" = "week"
             monthlyButton.text = "   3.99€ / kuukausi" //"Kuukausi" = "Month"
             yearlyButton.text = "   9.99€ / vuosi" //"Vuosi" = "year"
         }

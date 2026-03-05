@@ -361,11 +361,6 @@ struct Tier3ENTasks {
                     baselinePenalty: 3
                 ),
                 Task(
-                    template: "From now on, each player must exaggeratedly act like a stereotypical member of the opposite sex. The first player to lose their patience takes {penalties} penalties",
-                    pointsToScore: 0,
-                    baselinePenalty: 3
-                ),
-                Task(
                     template: "{player1}, you may only speak English for the rest of the game. From now on, take {penalties} penalties for every sentence spoken in another language",
                     pointsToScore: 0,
                     baselinePenalty: 3

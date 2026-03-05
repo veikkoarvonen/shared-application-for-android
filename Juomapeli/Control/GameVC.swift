@@ -155,6 +155,10 @@ class GameView: UIViewController {
         
         gameParameters = GameParameters(currentTask: 0, numberOfTasks: numberOfTasks, playerData: playerData, p1indexes: p1indexes, p2indexes: p2indexes, tasksTemplates: tasktemplates)
         
+       // if C.useDebugTasks { gameParameters?.tasksTemplates = gameFunctionality.generateDebugTaskTemplates()
+           // print("Using debug tasks")
+     //   }
+        
         if C.debugApp { checkGameParameters() }
         
     }
